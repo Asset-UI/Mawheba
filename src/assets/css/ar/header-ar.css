@@ -272,7 +272,7 @@ bottom: -10px;
 
   .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega{
     position: fixed;
-    top: 50px;
+    top: 55px;
     left: 0;
     bottom: 0;
     width: calc(66.6666667% - 60px);
@@ -281,7 +281,7 @@ bottom: -10px;
     background-color: #ffffff;
     display: none;
     z-index: 99;
-    padding-top: 52px;
+    padding-top: 47px;
   }
   .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega li{
     width: 50%;
