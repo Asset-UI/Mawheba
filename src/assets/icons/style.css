@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?dl5yn');
-  src:  url('fonts/icomoon.eot?dl5yn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dl5yn') format('truetype'),
-    url('fonts/icomoon.woff?dl5yn') format('woff'),
-    url('fonts/icomoon.svg?dl5yn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?53avhu');
+  src:  url('fonts/icomoon.eot?53avhu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?53avhu') format('truetype'),
+    url('fonts/icomoon.woff?53avhu') format('woff'),
+    url('fonts/icomoon.svg?53avhu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,48 +25,72 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Group-2510:before {
-  content: "\e90d";
+.icon-i-Icon:before {
+  content: "\e916";
 }
-.icon-Shape:before {
-  content: "\e90e";
+.icon-g-Icon:before {
+  content: "\e910";
 }
-.icon-Component-8--1:before {
+.icon-Facebook-Icon1:before {
+  content: "\e911";
+}
+.icon-LinkedIn-Icon1:before {
+  content: "\e912";
+}
+.icon-next1:before {
+  content: "\e913";
+}
+.icon-Shape-7331:before {
+  content: "\e914";
+}
+.icon-Twitter-Icon1:before {
+  content: "\e915";
+}
+.icon-Path-460:before {
   content: "\e900";
 }
-.icon-Facebook-Icon:before {
+.icon-Component-8--1:before {
   content: "\e901";
 }
-.icon-Fill-951:before {
+.icon-Facebook-Icon:before {
   content: "\e902";
 }
-.icon-Group-2511:before {
+.icon-Fill-951:before {
   content: "\e903";
 }
-.icon-ios-play:before {
+.icon-Group-2511:before {
   content: "\e904";
 }
-.icon-LinkedIn-Icon:before {
+.icon-ios-play:before {
   content: "\e905";
 }
-.icon-next:before {
+.icon-LinkedIn-Icon:before {
   content: "\e906";
 }
-.icon-Rectangle-563:before {
+.icon-next:before {
   content: "\e907";
 }
-.icon-Shape-733:before {
+.icon-Rectangle-563:before {
   content: "\e908";
 }
-.icon-Twitter-Icon:before {
+.icon-Shape-733:before {
   content: "\e909";
 }
-.icon-cancel-circle:before {
+.icon-Twitter-Icon:before {
   content: "\e90a";
 }
-.icon-keyboard_arrow_left-24px1:before {
-  content: "\e90c";
+.icon-cancel-circle:before {
+  content: "\e90b";
 }
 .icon-keyboard_arrow_left-24px:before {
-  content: "\e90b";
+  content: "\e90c";
+}
+.icon-keyboard_arrow_left-24px1:before {
+  content: "\e90d";
+}
+.icon-Group-2510:before {
+  content: "\e90e";
+}
+.icon-Shape:before {
+  content: "\e90f";
 }

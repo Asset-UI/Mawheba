@@ -1,0 +1,358 @@
+/* nav */
+.Mwheba .navbar-light .navbar-nav .nav-link{
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color:rgba(0,0,0,1);
+  ]
+}
+.Mwheba .navbar-light .navbar-nav.mr-auto .nav-link{
+  font-size: 24px !important;
+}
+.Mwheba .extraLinks{
+  margin: 0;
+  padding: 0;
+}
+.Mwheba .extraLinks li{
+  list-style: none;
+  display: inline-block;
+}
+.Mwheba .extraLinks li a{
+  color:#000000;
+  font-size: 15px;
+}
+.Mwheba .extraLinks li a:hover{
+  color: #333333;
+  text-decoration: none;
+}
+.Mwheba .extraLinks li:first-child{
+  margin-left: 10px;
+}
+.Mwheba .extraLinks li .icon-Group-2511{
+  color: #3cb44d;
+  font-size: 18px;
+}
+.Mwheba .extraLinks li .icon-Fill-951{
+  color: #0099FF;
+  font-size: 18px;
+}
+.Mwheba .toggleMega *[class*="icon"]{
+  font-size: 28px;
+}
+.Mwheba .megaMenuHolder{
+ position: absolute;
+ top: 0;
+ bottom:0;
+ left: 0;
+ right: 100%;
+ display: inline-block;
+ overflow: hidden;
+ background-color: rgba(0,0,0,0.0);
+ -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 9999;
+}
+.Mwheba .megaMenuHolder.open{
+  right: 0;
+  background-color: rgba(0,0,0,0.0);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+ }
+ .Mwheba .megaMenuHolder .megaMenu{
+   background-color: #ffffff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 100px;
+ }
+
+ .Mwheba .megaMenuHolder .megaMenu .closeMegaMenu{
+   background-color: #ffffff;
+  -webkit-border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: absolute;
+  top: 40px;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  display: inline-table;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color:#999999;
+  text-decoration: none;
+ }
+ .Mwheba .megaMenuHolder .megaMenu .closeMegaMenu:hover{
+  color:#333333;
+ }
+ .Mwheba .megaMenuHolder .megaMenu .megaShareIcon ul{
+display: inline-block;
+margin: 0;
+padding: 0;
+ }
+ .Mwheba .megaMenuHolder .megaMenu .megaShareIcon ul li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 0 7px;
+   }
+   .Mwheba .megaMenuHolder .megaMenu .megaShareIcon ul li a{
+     font-size: 18px;
+     color:#0099FF;
+   }
+   .Mwheba .megaMenuHolder .megaMenu .megaShareIcon ul li a:hover{
+    color:#007acb;
+    text-decoration: none;
+   }
+
+   .Mwheba .megaMenuHolder .megaMenu .megaTopLinks a{
+    font-size: 16px;
+    color:#333333;
+   }
+   .Mwheba .megaMenuHolder .megaMenu .megaTopLinks a:hover{
+    color:#000000;
+    text-decoration: none;
+   }
+   .Mwheba .megaMenuHolder .megaMenu .megaDate{
+     font-size: 16px;
+   }
+   .Mwheba .megaMenuHolder .megaMenu .megaDate span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+   .Mwheba .megaMenuHolder .megaMenu .megaDate,
+   .Mwheba .megaMenuHolder .megaMenu .megaShareIcon,
+   .Mwheba .megaMenuHolder .megaMenu .megaTopLinks{
+     margin-top: 30px;
+   }
+ .Mwheba.opacity:after{
+   content: '';
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+ }
+ .Mwheba .megaMenuHolder .megaMenu .megaMenuRest{
+   background-image: url(../../images/general/megaMenuImg.jpg);
+   background-position: top right;
+   background-repeat: no-repeat;
+   background-size: auto 100%;
+   height: calc( 100vh - 100px );
+   margin-top: 20px;
+ }
+
+ .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu{
+   padding-left: 0px;
+ }
+ .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul{
+margin: 40px 60px 40px 0px;
+padding: 0;
+ }
+ .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li{
+  margin: 15px 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  width: 100%;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a{
+color:#333333;
+font-size: 18px;
+display: inline-block;
+position:absolute;
+top: 0;
+width: 100%;
+-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a:hover{
+color:#000000;
+font-size: 22px;
+text-decoration: none;
+-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a *[class*="icon"]{
+  float: left;
+  margin-top: 10px;
+  transform: scale(.8);
+  opacity: 0.5;
+  margin-left: 75px;
+}
+
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm{
+  height: 148px;
+  width: 128px;
+  display: inline-block;
+  -webkit-border-bottom-right-radius: 63px;
+-webkit-border-bottom-left-radius: 63px;
+-moz-border-radius-bottomright: 63px;
+-moz-border-radius-bottomleft: 63px;
+border-bottom-right-radius: 63px;
+border-bottom-left-radius: 63px;
+overflow: hidden;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper{
+  width: 128px;
+  height: 128px;
+  margin-top: 20px;
+  display: inline-block;
+  -webkit-border-radius: 63px;
+-moz-border-radius: 63px;
+border-radius: 63px;
+background-color: #cccccc;
+position: relative;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color01{
+  background-color: #c5e8ff;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color02{
+  background-color: #ffe895;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color03{
+  background-color: #cbc4ff;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color04{
+  background-color: #a2ffaf;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color05{
+  background-color: #ff6768;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAm .helper.color06{
+  background-color: #c5e8ff;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAmHolder .iAm .helper img{
+position: absolute;
+left: 0;
+bottom: -10px;
+-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAmHolder:hover .iAm .helper img{
+  bottom: -1px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+  }
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAmHolder  {
+    margin: 10px 0;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuRest .iAmHolder span.iAmTitle{
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: #333333;
+  }
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: calc(66.6666667% - 60px);
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    display: none;
+    z-index: 99;
+    padding-top: 52px;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega li{
+    width: 50%;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li:hover ul.subMega{
+    display: block;
+  }
+
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview{
+    width: 45%;
+    position: absolute;
+    top:50px;
+    left: 50px;
+  }
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .megaVideoTitle{
+    font-size: 26px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .megaVideoDes{
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    color: #646464;
+    line-height: 30px;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .megaVideobtn{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .megaVideobtn .btn{
+    top:initial;
+    color:#ffffff;
+  }
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .megaVideobtn .btn:hover{
+    font-size: 20px;
+  }
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .videoPlayerHolder{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+
+  .Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega .megaMenuPreview .videoPlayerHolder *[class*="play"]{
+    position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+line-height: 60px;
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+color:#0099FF;
+  font-size: 13px;
+  }

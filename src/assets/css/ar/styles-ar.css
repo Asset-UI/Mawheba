@@ -1,6 +1,7 @@
 /* general */
 @import "../../frameworks/bootstrap/css/bootstrap.min.css";
-@import "main-ar.css"; 
+@import "main-ar.css";
+@import "header-ar.css";
 
 /* icons */
 @import "../../icons/style.css";

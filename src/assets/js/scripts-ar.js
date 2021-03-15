@@ -89,3 +89,25 @@ $(document).on('click', '#video1', function(){
 $(document).on('click', '.icon-cancel-circle', function(){
     $('*[id*="vidBox"]').hide();
 });
+
+$(document).on('click', '.toggleMega', function(){
+  $('.megaMenuHolder').addClass('open');
+  $('body').addClass('opacity');
+});
+$(document).on('click', '.closeMegaMenu', function(){
+  $('.megaMenuHolder').removeClass('open');
+  $('body').removeClass('opacity');
+});
+/*
+$(document).on('mouseover', '.megaMenuMenu ul li', function(){
+  $('.megaMenuRest').hide();
+  $('.megaMenuPreview').show();
+  $('.subMega').hide();
+  $(this).find('.subMega').show();
+});
+$(document).on('mouseleave', '.megaMenuPreview', function(){
+  $('.megaMenuRest').show();
+  $('.megaMenuPreview').hide();
+  $('.subMega').hide();
+});
+*/
