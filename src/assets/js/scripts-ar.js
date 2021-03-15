@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
       $owl1
         .owlCarousel({
           items: 1,
-          //autoplay:true,
+          autoplay:true,
           lazyLoad: false,
           loop: false,
           margin: 10,
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 items:3
             }
         },
-          //autoplay:true,
+          autoplay:true,
           lazyLoad: false,
           loop: false,
           margin: 10,
