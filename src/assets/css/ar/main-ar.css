@@ -1,0 +1,485 @@
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Bold.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Bold.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Bold.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Bold.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Bold.svg#DINNextLTArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Black.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Black.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Black.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Black.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Black.svg#DINNextLTArabic-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Heavy.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Heavy.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Heavy.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Heavy.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Heavy.svg#DINNextLTArabic-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Light.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Light.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Light.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Light.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Light.svg#DINNextLTArabic-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Medium.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Medium.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Medium.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Medium.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Medium.svg#DINNextLTArabic-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../fonts/din next/DINNextLTArabic-Regular.eot');
+  src: url('../fonts/din next/DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-Regular.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-Regular.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-Regular.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-Regular.svg#DINNextLTArabic-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic Ultra';
+  src: url('../fonts/din next/DINNextLTArabic-UltraLight.eot');
+  src: url('../fonts/din next/DINNextLTArabic-UltraLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/din next/DINNextLTArabic-UltraLight.woff2') format('woff2'),
+      url('../fonts/din next/DINNextLTArabic-UltraLight.woff') format('woff'),
+      url('../fonts/din next/DINNextLTArabic-UltraLight.ttf') format('truetype'),
+      url('../fonts/din next/DINNextLTArabic-UltraLight.svg#DINNextLTArabic-UltraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+body,
+html, html *{
+  font-family: "DIN Next LT Arabic";
+  direction: rtl;
+  text-align: right;
+}
+.gallery {
+  padding: 1em;
+}
+
+
+/* nav */
+.navbar-light .navbar-nav .nav-link{
+  margin: 0 5px;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav.mr-auto .nav-link{
+  font-size: 24px !important;
+}
+.extraLinks{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.extraLinks li{
+  list-style: none;
+  display: inline-block;
+}
+.extraLinks li a{
+  color:#000000;
+  font-size: 15px;
+}
+.extraLinks li a:hover{
+  color: #333333;
+  text-decoration: none;
+}
+.extraLinks li:first-child{
+  margin-left: 10px;
+}
+.extraLinks li .icon-Group-2511{
+  color: #3cb44d;
+  font-size: 18px;
+}
+.extraLinks li .icon-Fill-951{
+  color: #0099FF;
+  font-size: 18px;
+}
+
+/* Home Banner */
+.HomeBanner{
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/home/bannerBG.png);
+  background-repeat: no-repeat;
+  background-size:auto 95%;
+  background-position: -50px top;
+}
+
+/* owl styling */
+.owl-stage-outer {
+  overflow: hidden;
+}
+.owl-stage {
+  display: flex;
+}
+.disabled {
+  display: none;
+}
+.owl-2 .owl-item {
+    border: 2px solid transparent;
+  }
+.owl-banner-controllers .owl-nav{
+  position: relative;
+}
+.owl-banner-controllers .owl-nav{
+  position: relative;
+}
+.owl-banner-controllers .owl-nav .owl-prev,
+.owl-banner-controllers .owl-nav .owl-next{
+  position: absolute;
+  top:-65px;
+}
+.owl-banner-controllers .owl-nav .owl-prev{
+  right: -45px;
+}
+.owl-banner-controllers .owl-nav .owl-next{
+  left: -45px;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #0099FF !important;
+  font-size: 14px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  background:transparent !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  border-radius: 0px !important;
+}
+.owl-theme .owl-nav .owl-prev.disabled,
+.owl-theme .owl-nav .owl-next.disabled{
+  color: #999999 !important;
+}
+
+
+
+
+.owl-banner-controllers{
+  height: 105px;
+  background-color:rgba(255,255,255,0.75);
+  -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12);
+padding: 10px 75px;
+}
+
+.slideData h4,
+.slideData h1,
+.slideData small{
+  display: inline-block;
+  width: 100%;
+}
+
+.slideData h4{
+  margin-bottom: 30px;
+}
+.slideData h1{
+  margin-bottom: 30px;
+}
+.slideData small{
+  margin-bottom: 30px;
+}
+.slideData .mBtn{
+  margin-bottom: 40px;
+}
+.slideData .btn-black{
+  margin-left: 10px;
+}
+.mBtn{
+ height: 54px;
+ font-size: 16px;
+ padding: 10px 40px;
+ -webkit-border-radius: 35px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+line-height: 26px;
+display: inline-block;
+}
+.btn-black{
+  background-color:#1E2432;
+  color:#ffffff;
+  border: 2px solid #1E2432;
+}
+.btn-black:hover{
+  background-color:#0e111a;
+  color:#ffffff;
+  border: 2px solid #0e111a;
+}
+.btn-white{
+  background-color:#ffffff;
+  color:#1E2432;
+  border: 2px solid #f1f1f1;
+}
+.btn-white:hover{
+  background-color:#f1f1f1;
+  color:#0e111a;
+  border: 2px solid #f1f1f1;
+}
+
+.videoPlayerHolder{
+  width: 480px;
+  height: 320px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin: 30px;
+}
+.videoPlayerHolder *[class*="play"]{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+line-height: 80px;
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+color:#0099FF;
+}
+.videoPlayerHolder *[class*="play"]:hover{
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
+.videoPlayerHolder .vidThumb{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+.videoPlayerHolder .path1,
+.videoPlayerHolder .path2{
+  position: absolute;
+}
+.videoPlayerHolder .path1{
+  top:-30px;
+  right: -30px;
+  width: 80px;
+  height: auto;
+}
+.videoPlayerHolder .path2{
+  bottom:-30px;
+  left: -30px;
+  width: 100px;
+  height: auto;
+}
+.slideTitle{
+  float: right;
+  padding: 15px;
+  width: calc(100% - 80px);
+  font-size: 15px;
+  color: #999999;
+}
+.current .slideTitle{
+  color:#000000;
+}
+
+/* carousel circle */
+.wrapperHolder {
+  width: 80px; /* Set the size of the progress bar */
+  height: 80px;
+  position: relative;
+  float: right;
+}
+.wrapper {
+  width: 80px; /* Set the size of the progress bar */
+  height: 80px;
+  position: absolute; /* Enable clipping */
+  clip: rect(0px, 80px, 80px, 40px); /* Hide half of the progress bar */
+}
+/* Set the sizes of the elements that make up the progress bar */
+.current .circle {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #ede2d4;
+  border-radius: 50%;
+  position: absolute;
+  clip: rect(0px, 40px, 80px, 0px);
+  z-index: 99;
+}
+.wrapperHolder .blueCircle{
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top:7px;
+  left: 7px;
+  z-index: 999;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.wrapperHolder .grayCircle{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #faf8f7;
+  top:0px;
+  left:0px;
+  z-index: 9;
+  line-height: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+.current .wrapperHolder .blueCircle{
+  background-color: #def2ff;
+}
+/* Using the data attributes for the animation selectors. */
+/* Base settings for all animated elements */
+.current div[data-anim~=base] {
+  -webkit-animation-iteration-count: 1;  /* Only run once */
+  -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+  -webkit-animation-timing-function:linear; /* Linear animation */
+}
+
+.current .wrapper[data-anim~=wrapper] {
+  -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+  -webkit-animation-delay: 2.5s; /* Wait half of the animation */
+  -webkit-animation-name: close-wrapper; /* Keyframes name */
+}
+
+.current .circle[data-anim~=left] {
+  -webkit-animation-duration: 5s; /* Full animation time */
+  -webkit-animation-name: left-spin;
+}
+
+.current .circle[data-anim~=right] {
+  -webkit-animation-duration: 2.5s; /* Half animation time */
+  -webkit-animation-name: right-spin;
+}
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+@-webkit-keyframes right-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+  to {
+    clip: rect(auto, auto, auto, auto);
+  }
+}
+
+
+@media (min-width: 1400px){
+  .container {
+    max-width: 1340px;
+}
+}
+@media (min-width: 1500px){
+  .container {
+    max-width: 1440px;
+}
+}
+
+
+/* video */
+#videCont{
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin: auto;
+  max-width: 720px;
+  height: 0;
+  height: auto !important;
+}
+*[id*="vidBox"]{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index:9;
+  display: none;
+}
+*[id="vidBox"] video{
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  opacity: 1 !important;
+
+}
+*[id*="vidBox"] .icon-cancel-circle{
+  font-size:30px;
+  color:#ffffff !important;
+  position:absolute;
+  top:15px;
+  right:20px;
+}
+*[id*="vidBox"] .icon-cancel-circle:hover{
+  text-decoration: none;
+}
+/* end of video */

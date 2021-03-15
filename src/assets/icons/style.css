@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dl5yn');
+  src:  url('fonts/icomoon.eot?dl5yn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dl5yn') format('truetype'),
+    url('fonts/icomoon.woff?dl5yn') format('woff'),
+    url('fonts/icomoon.svg?dl5yn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Group-2510:before {
+  content: "\e90d";
+}
+.icon-Shape:before {
+  content: "\e90e";
+}
+.icon-Component-8--1:before {
+  content: "\e900";
+}
+.icon-Facebook-Icon:before {
+  content: "\e901";
+}
+.icon-Fill-951:before {
+  content: "\e902";
+}
+.icon-Group-2511:before {
+  content: "\e903";
+}
+.icon-ios-play:before {
+  content: "\e904";
+}
+.icon-LinkedIn-Icon:before {
+  content: "\e905";
+}
+.icon-next:before {
+  content: "\e906";
+}
+.icon-Rectangle-563:before {
+  content: "\e907";
+}
+.icon-Shape-733:before {
+  content: "\e908";
+}
+.icon-Twitter-Icon:before {
+  content: "\e909";
+}
+.icon-cancel-circle:before {
+  content: "\e90a";
+}
+.icon-keyboard_arrow_left-24px1:before {
+  content: "\e90c";
+}
+.icon-keyboard_arrow_left-24px:before {
+  content: "\e90b";
+}
