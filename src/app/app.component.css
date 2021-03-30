@@ -1,0 +1,116 @@
+.HeaderContent {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    padding: 0 40px;
+    margin: 10px 0 0 0;
+    height: 75px;
+}
+img.logo {
+    width: 75px;
+    height: 75px;
+    margin: auto 29px;
+    z-index: 9;
+}
+/* ::ng-deep .p-tabview-panels {
+    display: none;
+} */
+::ng-deep .p-tabview-nav li {
+    position: relative;
+    margin: 0 30px;
+}
+::ng-deep .p-tabview-nav li.p-highlight:after {
+    position: absolute;
+    content: '';
+    border-bottom: 3px solid #0099FF;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: -22px;
+    left: 50%;
+}
+::ng-deep .p-tabview-nav li.p-highlight .p-tabview-nav-link .p-tabview-title{
+    color: #0099FF;
+    opacity: 1 !important;
+}
+::ng-deep .p-tabview-title{
+    font-family: 'DinMeduim';
+    min-height: 25px;
+    font-size: 16px;
+    opacity: .5;
+    line-height: 1.5 !important;
+}
+::ng-deep .p-tabview-nav-link:focus{
+    outline: 0 !important;
+}
+span.HelpCenter:before {
+    content: "\e903";
+    font-family: Icomoon;
+    display: inline-flex;
+    margin: 5px;
+    color: #0099ff;
+    font-size: 30px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+.HelpCenter{
+    margin-left: 35px;
+    color: #1E2432;
+    cursor: pointer;
+}
+span.Notifications::after {
+    content: "\e904";
+    font-family: 'Icomoon';
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+span.Notifications::before {
+    content: "";
+    border-left: 2px solid rgba(0, 0, 0, 0.03);
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -45px;
+    cursor: default;
+}
+span.Notifications {
+    margin-left: 45px;
+    position: relative;
+    cursor: pointer;
+}
+span.Lang {
+    margin: 0 45px;
+    font-family: 'DinMeduim';
+    font-size: 20px;
+    cursor: pointer;
+    color: #1E2432;
+}
+.SlideMenu img {
+    height: 13px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+.HeaderContent:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: #ffffffa3;
+    height: calc(100% + 10px);
+    left: 0;
+    top: -10px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+/* -----------------------eNGLISHsTYLE----------------------- */
+.EN .HelpCenter, .EN span.Notifications {
+    margin-left: unset;
+    margin-right: 45px;
+}
+.EN span.Notifications::before {
+   left: 50px;
+}
+/* -----------------------eNGLISHsTYLE----------------------- */

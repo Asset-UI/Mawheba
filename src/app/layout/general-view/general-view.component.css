@@ -1,0 +1,591 @@
+.MenuView {
+    position: relative;
+    display: flex;
+    width: 85%;
+    margin: 0;
+    margin-right: auto;
+    height: calc(100vh - 95px);
+    padding: 15px;
+}
+
+
+::ng-deep .product-item-content {
+    background: #FFE278 0% 0% no-repeat padding-box;
+    box-shadow: -50px 10px 20px #00000008;
+    border-radius: 35px;
+    opacity: 1;
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    padding: 25px 0px;
+}
+::ng-deep .p-carousel-items-container{
+    direction: ltr;
+}
+::ng-deep .p-carousel-container button.p-link {
+    display: none;
+}
+img.product-image {
+    position: relative;
+    display: flex; 
+    max-width: 17%;
+    margin: auto 5% auto 0;
+}
+.ItemContent{
+    display: block;
+    margin: 10px 20px auto auto;
+    text-align: right;
+}
+::ng-deep .p-carousel-items-content {
+    border-radius: 35px;
+}
+span.Pname.p-mb-1 {
+    display: block;
+    text-align: right;
+    font: normal normal medium 33px/81px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'DinMeduim';
+    font-size: 30px;
+}
+span.Pdesc.p-mb-1 {
+    text-align: right;
+    font: normal normal normal 18px/35px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'DinMeduim';
+    margin-top: 20px;
+    display: block;
+}
+::ng-deep .p-carousel-content {
+    position: relative;
+}
+::ng-deep ul.p-carousel-indicators.p-reset {
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+    padding: 0;
+    list-style: none;
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+}
+::ng-deep p-carousel {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+::ng-deep .p-carousel-indicator>button {
+    border-radius: 50px;
+    width: 7px;
+    height: 7px;
+    margin: 0 5px;
+    position: relative;
+    padding: 0;
+    border: 0;
+    background: #1E2432;
+    opacity: .2;
+}
+::ng-deep li.p-carousel-indicator.p-highlight button.p-link {
+    opacity: 1;
+}
+.ScrollableContainer::-webkit-scrollbar {
+    display: none;
+}
+.ScrollableContainer {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin-right: 0;
+    height: 100vh;
+    margin-left: auto;
+    padding: 15px;
+    overflow: auto;
+    padding-top: 105px;
+}
+::ng-deep .Sub ul.p-tabview-nav {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+::ng-deep .Sub .p-tabview-nav li {
+    text-align: right;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-family: 'DinMeduim';
+    font-size: 16px;
+}
+::ng-deep .Sub .p-tabview-nav li.p-highlight:after{
+    content: none;
+}
+::ng-deep .Sub .p-tabview-nav li.p-highlight .p-tabview-nav-link .p-tabview-title,
+::ng-deep .Sub .p-tabview-nav li.p-highlight .p-tabview-nav-link .p-tabview-left-icon {
+    color: #fff;
+    opacity: 1 !important;
+}
+::ng-deep .Sub .p-tabview-nav li {
+    text-align: right;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: calc(80% - 10px);
+    font-family: 'DinMeduim';
+    font-size: 16px;
+    margin: auto;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    /* opacity: .2; */
+    color: #000;
+}
+::ng-deep .Sub .p-tabview-nav li.p-highlight {
+    background: #6c5dd2;
+    opacity: 1;
+}
+::ng-deep .Sub .p-tabview-nav li .p-tabview-nav-link .p-tabview-title {
+    font-family: 'DinMeduim';
+    font-size: 16px;
+    margin-right: 15px;
+}
+.Evaluation {
+    position: relative;
+    width: 25%;
+    height: calc(100vh - 85px);
+    margin-left: 0px;
+    border-right: 1px solid #f7f7f7;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: 90px;
+}
+::ng-deep app-general-view{
+    display: flex;
+    background: transparent linear-gradient(231deg, #FFFFFF 0%, #F8FBFC 100%) 0% 0% no-repeat padding-box;
+}
+.CalenderView {
+    padding: 20px;
+    background: #6C5DD2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 22px #0000000d;
+    border-radius: 35px;
+    opacity: 1;
+    color: #fff;
+}
+.CalTop {
+    display: flex;
+    direction: initial;
+}
+.dateCont {
+    display: block;
+    margin-left: auto;
+    background-color: #fff;
+    color: #6c5dd2;
+    padding: 0;
+    height: 65px;
+    width: 65px;
+     font-family: 'DinMeduim';
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000012;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 20px;
+}
+.dateCont span {
+    display: block;
+    text-align: center;
+    height: 45%;
+}
+.dateCont span:first-child {
+    /* font-weight: 700; */
+    font-size: 30px;
+}
+.CalBtn {
+    position: relative;
+    display: block;
+    height: fit-content;
+    margin-top: 35px;
+}
+.CalBtn p:first-child {
+    text-align: right;
+    font: normal normal normal 16px/28px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'DinLight';
+}
+.CalBtn p:last-child {
+    text-align: right;
+    font: normal normal medium 20px/30px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'DinMeduim';
+}
+.RadarCont {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 22px #0000000d;
+    border-radius: 35px;
+    opacity: 1;
+    padding: 35px 0 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.RadarCont .RTit{
+    margin-bottom: 25px;
+    letter-spacing: 0px;
+    color: #1E2432;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'DinBold';
+    display: block;
+}
+::ng-deep .STabs .p-tabview-panels {
+    position: relative !important;
+    height: fit-content !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+::ng-deep .STabs .p-tabview-nav li {
+    width: fit-content !important;
+    margin: 25px 0px 25px 20px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    border: 1px solid #7f8080;
+    border-radius: 332px;
+    opacity: 1;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+::ng-deep .STabs .p-tabview-nav{
+    display: flex !important;
+}
+::ng-deep .STabs .p-tabview-nav li .p-tabview-nav-link .p-tabview-title{
+    margin: 0;
+    font-size: 13px;
+}
+::ng-deep .STabs .p-tabview-nav li.p-highlight {
+    border: none;
+}
+::ng-deep .STabs .p-tabview-nav li.p-highlight .p-tabview-nav-link .p-tabview-title{
+    color: #1E2432;
+}
+::ng-deep .STabs .p-tabview-nav li.p-highlight{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -5px 5px 22px #0000000F;
+    border: 1px solid #FFFFFF;
+}
+.ActivityCard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 22px #0000000d;
+    border-radius: 35px;
+    opacity: 1;
+    width: calc(90% / 3);
+    padding: 30px;
+}
+.CardContainer {
+    display: flex;
+}
+.CardContainer .ActivityCard:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ActivityCard .d-flex img:nth-child(2) {
+    margin-right: auto;
+}
+p.CardTitle {
+    text-align: right;
+    font: normal normal medium 22px/33px DIN Next LT W23;
+    letter-spacing: -0.44px;
+    color: #1E2432;
+    opacity: 1;
+    font-family: 'DinBold';
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+p.CardLabel {
+    text-align: right;
+    font: normal normal medium 16px/23px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #1E2432;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'DinMeduim';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+p.CardStatus {
+    text-align: right;
+    font: normal normal normal 16px/28px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #1E2432;
+    opacity: 0.7;
+    font-family: 'DinLight';
+    margin: 0;
+    height: 30px;
+}
+.ProgressBarCont {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+::ng-deep .p-progressbar .p-progressbar-value {
+    margin: 0;
+    background: #0099FF;
+    border-radius: 14px;
+}
+::ng-deep .p-progressbar {
+    overflow: hidden;
+    position: relative;
+    border: 0 none;
+    height: 1.5rem;
+    background: #dee2e6;
+    border-radius: 3px;
+}
+::ng-deep .p-progressbar {
+    height: 1.3rem;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 15px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 14px;
+    opacity: 1;
+    color: #fff;
+}
+::ng-deep .p-progressbar-determinate .p-progressbar-label {
+    font-weight: 100 !important;
+    height: 15px !important;
+    top: -2px;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+    font-family: 'DinMeduim !important';
+    font-size: 13px;
+}
+.ProgressLabels {
+    display: flex;
+    font-size: 14px;
+    font-family: 'DinMeduim';
+}
+.ProgressLabels p{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.ProgressLabels p:first-child{
+    margin-left: 5px;
+    font-family: 'DinBold';
+}
+.Timer {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    align-content: space-between;
+    width: fit-content;
+}
+.Timer div{
+    display: grid;
+    text-align: center;
+    margin: 0 10px;
+}
+.CountDownTimer p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: 'DinBold';
+    text-align: center;
+    margin-bottom: 0;
+}
+.Timer .Time span:first-child{
+    color: #0099FF;
+    font-size: 22px;
+    font-family: 'DinBold';
+    height: 25px;
+}
+.Timer .Time span:last-child{
+    color: #646464;
+    font-size: 12px;
+    font-family: 'DinLight';
+}
+span.TimeDivider {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+    font-size: x-large;
+}
+.Degrees {
+    background: #DCF1FF 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    opacity: 1;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 40px 0;
+    padding: 25px 35px;
+}
+.DegHeader {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 30px;
+}
+.DegHeader p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'DinMeduim';
+    display: flex;
+    align-items: center;
+}
+.DegHeader p:last-child{
+    margin-right: auto;
+    color: #000;
+    font-family: 'DinBold';
+    font-size: 16px;
+}
+.DegreesContent {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.itemContent {
+    position: relative;
+    display: block;
+    margin-right: 20px;
+}
+.ItemImg img{
+    width: 154px;
+    height: 154px;
+}
+.itemContent span {
+    position: relative;
+    display: block;
+    color: #1E2432;
+}
+.itemContent span.Ddesc {
+    font-size: 16px;
+    margin-bottom: 15px;
+    opacity: .8;
+}
+.itemContent span.Dname {
+    color: #1E2432;
+    font-size: 21px;
+    font-family: 'DinMeduim';
+}
+.Btns {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+.Btns button{
+    margin: 0 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    padding: 15px 75px;
+    font-size: 16px;
+    font-family: 'DinBold';
+    border: 1px solid #fff;
+}
+.Btns button:first-child{
+    margin-right: 0;
+}
+.Btns button:last-child{
+    background: transparent;
+    border: 1px solid #00000038;
+}
+.ActivityCard.Half {
+    width: calc(100% / 2);
+}
+.ActivityCard.Half:first-child {
+    margin-left: 2.5%;
+}
+.ActivityCard.Half:last-child {
+    margin: 0 !important;
+    margin-right: 2.5% ;
+}
+.ActivityCard.Half p{
+    color: #1E2432;
+    font-family: 'DinMeduim';
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+.ActivityCard.Half img{
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    width: 125px;
+    height: 125px;
+}
+.ActivityCard.Half span{
+    position: relative;
+    display: block;
+    text-align: center;
+    opacity: .5;
+    margin: 0;
+    padding: 0;
+}
+.ActivityCard.Half span.Descr {
+    font-size: 27px;
+    opacity: 1;
+}
+.ActivityCard.Half .Btns {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.ActivityCard.Half .Btns button:first-child{
+    background: #FFDA55;
+    border: 1px solid #FFDA55;
+    margin-bottom: 10px;
+}
+.ActivityCard.Half:last-child .Btns button:first-child{
+    background: #6C5DD2;
+    border: 1px solid #6C5DD2;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.ActivityCard.Half .Btns button{
+    width: 100%;
+    margin: 0;
+}
+.ATimer {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    color: #6c5dd2;
+}
+.ATimer .ATime span:first-child {
+    font-family: 'DinBold';
+    font-size: 45px;
+    opacity: 1;
+    height: fit-content;
+}
+.ATimer .ATime span:last-child {
+    font-family: 'DinLight';
+    font-size: 27px;
+    opacity: 1;
+    height: fit-content;
+}
+.ATime {
+    position: relative;
+    display: block;
+    height: 125px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+::ng-deep .GreenBar .p-progressbar .p-progressbar-value {
+    background: #38B349;
+}
+::ng-deep .ActivityCard:first-child .p-progressbar .p-progressbar-label {
+    width: 60% !important;
+}

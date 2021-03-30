@@ -1,1 +1,176 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'DinBold';
+    src: url('../src/assets/fonts/DINNextLTArabic-Bold.ttf');
+}
+@font-face {
+    font-family: 'DinHeavy';
+    src: url('../src/assets/fonts/DINNextLTArabic-Heavy.ttf');
+}
+@font-face {
+    font-family: 'DinLight';
+    src: url('../src/assets/fonts/DINNextLTArabic-Light.ttf');
+}
+@font-face {
+    font-family: 'DinMeduim';
+    src: url('../src/assets/fonts/DINNextLTArabic-Medium.ttf');
+}
+@font-face {
+    font-family: 'DinRegular';
+    src: url('../src/assets/fonts/DINNextLTArabic-Regular.ttf');
+}
+@font-face {
+    font-family: 'DinUltraLight';
+    src: url('../src/assets/fonts/DINNextLTArabic-UltraLight.ttf');
+}
+.DinB{
+    font-family: 'DinBold';
+}
+.DinH {
+    font-family: 'DinHeavy';
+}
+.DinL {
+    font-family: 'DinLight'; 
+}
+.DinM {
+    font-family: 'DinMeduim';
+}
+.DinR {
+    font-family: 'DinRegular';
+}
+.DinUL {
+    font-family: 'DinUltraLight';
+    src: url('../src/assets/fonts/DINNextLTArabic-UltraLight.ttf');
+}
+@font-face {
+    font-family: 'Icomoon';
+    src: url('../src/assets/icons/icomoon.ttf');
+}
+@font-face {
+    font-family: 'SIcomoon';
+    src: url('../src/assets/icons/Sicomoon.ttf');
+}
+:focus {
+    outline: none !important;
+}
+button.p-button.p-component{
+    cursor: pointer;
+}
+.SIcomoon{
+    font-family: SIcomoon !important;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.d-flex {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+.MainContainer{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    direction: rtl;
+    overflow: hidden;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.Lang.ar{
+    display: none;
+}
+.Index9{
+    z-index: 9;
+}
+.Index1{
+    z-index: 1;
+}
+.PanelTab.PersonalInfo::-webkit-scrollbar {
+    display: none;
+}
+.h-50{
+    height: 50px;
+}
+/* -----------------------eNGLISHsTYLE----------------------- */
+.MainContainer.EN {
+    direction: ltr;
+}
+.EN .mr-auto{
+  margin-right: unset;
+  margin-left: auto;
+}
+.EN .ml-auto{
+  margin-left: unset;
+  margin-right: auto;
+}
+.EN .Lang.ar{
+    display: initial;
+}
+.EN .Lang.en{
+    display: none;
+}
+.EN .sideMenu{
+    border-left: 0;
+    border-right: 1px solid #f7f7f7;
+}
+.EN .Sub .p-tabview-panels {
+    right: 0;
+    left: auto !important;
+}
+.EN .ActivityCard.Half:first-child {
+    margin: 0 !important;
+    margin-right: 2.5% !important;
+}
+.EN .ActivityCard.Half:last-child {
+    margin: 0 !important;
+    margin-left: 2.5% !important;
+}
+.EN .Evaluation {
+    border-right: 0;
+    border-left: 1px solid #f7f7f7;
+}
+.EN .Sub .p-tabview-nav li .p-tabview-nav-link .p-tabview-title{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.EN .ActivityCard .d-flex img:nth-child(2){
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.EN .BannerCont button.p-button.p-component {
+    left: 15px;
+    right: auto;
+}
+.EN .BannerCont .UploadBtnCont {
+    left: auto !important;
+    right: 0;
+}
+.EN .TitleCont span {
+   margin-right: auto;
+   margin-left: 0 !important;
+}
+.EN .DataGroup {
+    margin-left: 0 !important;
+    margin-right: 20px;
+}
+.EN .DataGroupContainer.Fi .DataGroup {
+    margin-right: 6%;
+    margin-left: 0;
+}
+.EN .ProgramsContainer span.Filter {
+    left: auto !important;
+    right: 15px;
+}
+/* -----------------------eNGLISHsTYLE----------------------- */

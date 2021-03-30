@@ -1,0 +1,157 @@
+<div class="ScrollableContainer">
+    <p-carousel [value]="products" styleClass="custom-carousel"  [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="0">
+        <ng-template let-product pTemplate="item">
+            <div class="product-item">
+                <div class="product-item-content">
+                    <div class="ItemContent">
+                        <span class="Pname p-mb-1">{{product.name}}</span>
+                        <span class="Pdesc p-mb-1">{{product.description}}</span>
+                    </div>
+                    <img src="../../../../assets/images/{{product.image}}" [alt]="product.name" class="product-image" />
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+    <p-tabView class="STabs">
+        <p-tabPanel header="برامج و مسابقات مشترك بها">
+            <div class="CardContainer">
+                <div class="ActivityCard">
+                    <div class="d-flex h-50">
+                        <img src="../../../assets/images/card1.png">
+                        <img src="../../../assets/images/Fill2558.svg">
+                        <i class="pi pi-ellipsis-v"></i>
+                    </div>
+                    <p class="CardTitle">الأولمبياد الوطني للإبداع</p>
+                    <p class="CardLabel">حالة البرنامج</p>
+                    <p class="CardStatus">تم سداد الرسوم</p>
+                    <div class="ProgressBarCont">
+                        <div class="ProgressLabels">
+                            <p>مسار التقدم:</p>
+                            <p>المرحلة الثانية</p>
+                        </div>
+                        <p-progressBar [value]="40"></p-progressBar>
+                    </div>
+                </div>
+                <div class="ActivityCard">
+                    <div class="d-flex h-50">
+                        <img src="../../../assets/images/card2.png">
+                        <img src="../../../assets/images/Fill2558.svg">
+                        <i class="pi pi-check"></i>
+
+                    </div>
+                    <p class="CardTitle">مسابقة موهوب</p>
+                    <p class="CardLabel">حالة المسابقة</p>
+                    <p class="CardStatus">تم الانتهاء من التدريب المكثف</p>
+                    <div class="ProgressBarCont">
+                        <div class="ProgressLabels">
+                            <p>مسار التقدم:</p>
+                            <p>المستوى الثانى</p>
+                        </div>
+                        <p-progressBar class="GreenBar" [value]="60"></p-progressBar>
+                    </div>
+                </div>
+                <div class="ActivityCard">
+                    <div class="d-flex h-50">
+                        <img src="../../../assets/images/card3.png">
+                        <img src="../../../assets/images/Fill2558.svg">
+                    </div>
+                    <p class="CardTitle">البرنامج الوطني للكشف عن الموهوبين</p>
+                    <p class="CardLabel">حالة البرنامج</p>
+                    <p class="CardStatus">تم سداد الرسوم</p>
+                    <div class="CountDownTimer">
+                        <p>متبقى على بداية البرنامج</p>
+                        <div class="Timer">
+                            <div class="Time">
+                                <span>05</span>
+                                <span>يوم</span>
+                            </div>
+                            <span class="TimeDivider">:</span>
+                            <div class="Time">
+                                <span>12</span>
+                                <span>ساعة</span>
+                            </div>
+                            <span class="TimeDivider">:</span>
+                            <div class="Time">
+                                <span>40</span>
+                                <span>دقيقة</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Degrees">
+                <div class="DegHeader">
+                    <p>الشهادات الخاصة بك</p>
+                    <p>عرض جميع الشهادات</p>
+                </div>
+                <div class="DegreesContent">
+                    <div class="ItemImg">
+                        <img src="../../../assets/images/FourthSlide.png" class="Degree-image" />
+                    </div>
+                    <div class="itemContent">
+                        <span class="Ddesc">الأربعاء 20 يناير 2021</span>
+                        <span class="Dname">تم اصدار الشهادة الخاصة بك لبرنامج موهبة للأولمبيادات الدولية</span>
+                        <div class="Btns">
+                            <button pButton type="button" label="عرض الشهادة"></button>
+                            <button pButton type="button" label="تحميل الشهادة"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="CardContainer">
+                <div class="ActivityCard Half">
+                    <p>مجالات التميز</p>
+                    <img src="../../../assets/images/HCard1.png">
+                    <span>الأربعاء 20 يناير 2021</span>
+                    <span class="Descr">الرسم والتصميم</span>
+                    <div class="Btns">
+                        <button pButton type="button" label="عرض الشهادة"></button>
+                        <button pButton type="button" label="تحميل الشهادة"></button>
+                    </div>
+                </div>
+                <div class="ActivityCard Half">
+                    <p>درجاتى</p>
+                    <div class="ATimer">
+                        <div class="ATime">
+                            <span>05</span>
+                            <span>درجة</span>
+                        </div>
+                    <img src="../../../assets/images/HCard2.svg">
+                    </div>
+                    <span class="Descr">IETLS Level B2</span>
+                    <span>الأربعاء 20 يناير 2021</span>
+                    <div class="Btns">
+                        <button pButton type="button" label="عرض الشهادة"></button>
+                        <button pButton type="button" label="تحميل الشهادة"></button>
+                    </div>
+                </div>
+            </div>
+        </p-tabPanel>
+        <p-tabPanel header="برامج تم ترشيحك للتسجيل فيها">
+            Content
+        </p-tabPanel>
+        <p-tabPanel header="برامج و مسابقات موصى بها لك">
+            Content
+        </p-tabPanel>
+    </p-tabView>
+</div>
+<div class="Evaluation">
+    <div class="CalenderView">
+        <div class="CalTop">
+            <img src="../../../assets/images/Cal.svg">
+            <div class="dateCont">
+                <span>25</span>
+                <span>مايو</span>
+            </div>
+        </div>
+        <div class="CalBtn">
+            <p>الثلاثاء 25 مايو 2021</p>
+            <p>حفل إعلان نتائج مسابقة بيبراس موهبة للمعلوماتية</p>
+        </div>
+    </div>
+    <div class="RadarCont">
+        <span class="RTit">تقييم مستوى الطالب</span>
+        <p-chart type="radar" [options]="options" [data]="data"></p-chart>
+    </div>
+</div>

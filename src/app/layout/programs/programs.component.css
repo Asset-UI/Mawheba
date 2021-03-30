@@ -1,0 +1,218 @@
+::ng-deep app-programs{
+    display: flex;
+    background: transparent linear-gradient(231deg, #FFFFFF 0%, #F8FBFC 100%) 0% 0% no-repeat padding-box;
+}
+.ProgramsContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    padding-top: 95px;
+    overflow-y: auto;
+    height: 100vh
+}
+.ProgramsContainer p-tabview.STabs {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview.p-component {
+    position: inherit;
+    width: 100%;
+    display: block;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview-nav li.p-highlight {
+    background: #0099FF 0% 0% no-repeat padding-box;
+    box-shadow: -5px 5px 22px #0000000f;
+    border: 1px solid #0099ff;
+    border-radius: 332px;
+    opacity: 1;
+    color: #fff;
+    transition: .5s;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview-nav li.p-highlight .p-tabview-nav-link .p-tabview-title {
+    color: #fff;
+    text-align: center;
+    font: normal normal medium 16px/23px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview-nav li,
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview-nav li:nth-child(2) {
+    margin-left: 20px !important;
+}
+.ProgramsContainer span.Filter {
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 45px;
+    border-radius: 25px;
+    padding-bottom: 13px;
+    background: #FFDA55 0% 0% no-repeat padding-box;
+    box-shadow: -5px 5px 22px #0000000f;
+    border: 1px solid #FFDA55;
+     letter-spacing: 0px;
+    color: #1E2432;
+    font-family: 'DinMeduim';
+    font-size: 16px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ActivityCard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 22px #0000000d;
+    border-radius: 35px;
+    opacity: 1;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    width: 22%;
+    display: inline-block;
+    margin-left: 3%;
+    margin: 0px 0 20px 4%;
+    vertical-align: top;
+    height: 50vh;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ActivityCard:nth-child(4) {
+    margin: 0;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .CardContainer {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.Containerd {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.Card {
+    position: relative;
+    width: 22%;
+    height: 300px;
+    background: black;
+    display: inline-flex;
+    margin-left: 1%;
+    margin: 0px 0 20px 3%;
+    border-radius: 25px;
+}
+.ActivityCard .d-flex img:nth-child(2) {
+    margin-right: auto;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs p.CardTitle {
+    text-align: right;
+    font: normal normal medium 22px/33px DIN Next LT W23;
+    letter-spacing: -0.44px;
+    color: #1E2432;
+    opacity: 1;
+    font-family: 'DinBold';
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs p.CardLabel {
+    text-align: right;
+    font: normal normal medium 16px/23px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #1E2432;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'DinMeduim';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs p.CardStatus {
+    text-align: right;
+    font: normal normal normal 16px/28px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #1E2432;
+    opacity: 0.7;
+    font-family: 'DinLight';
+    margin: 0;
+    height: 30px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ProgressBarCont {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ProgressLabels {
+    display: flex;
+    font-size: 14px;
+    font-family: 'DinMeduim';
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ProgressLabels p:first-child {
+    margin-left: 5px;
+    font-family: 'DinBold';
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ProgressLabels p {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-progressbar {
+    height: 1.3rem;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 15px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 14px;
+    opacity: 1;
+    color: #fff;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-progressbar .p-progressbar-value {
+    margin: 0;
+    background: #0099FF;
+    border-radius: 14px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .ActivityCard:first-child .p-progressbar .p-progressbar-label {
+    width: 60% !important;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .CountDownTimer p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: 'DinBold';
+    text-align: center;
+    margin-bottom: 0;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .Timer {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    align-content: space-between;
+    width: fit-content;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .Timer div {
+    display: grid;
+    text-align: center;
+    margin: 0 10px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .Timer .Time span:first-child {
+    color: #0099FF;
+    font-size: 22px;
+    font-family: 'DinBold';
+    height: 25px;
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .Timer .Time span:last-child {
+    color: #646464;
+    font-size: 12px;
+    font-family: 'DinLight';
+}
+.ProgramsContainer ::ng-deep p-tabview.STabs .p-tabview-nav li{
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.ActivityCard .d-flex.h-50 img {
+    width: 48px;
+    height: 50px;
+    display: flex;
+}
