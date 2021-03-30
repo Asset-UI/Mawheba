@@ -1,0 +1,494 @@
+@media only screen and (max-width: 768px) {
+  .Mwheba .container {
+    max-width: calc(100% - 50px);
+    width: calc(100% - 50px);
+    margin: 0 25px;
+    padding: 0;
+  }
+  .Mwheba .owl-2{
+    display: none;
+  }
+  .Mwheba .videoPlayerHolder{
+    width:calc( 100% - 10px );
+    margin: 30px 5px;
+    height: 220px;
+  }
+  .Mwheba .HomeBanner {
+    background-size: 100% auto;
+    background-position: -100px bottom;
+  }
+  .Mwheba .container .gallery{
+    padding: 0;
+  }
+  .Mwheba .resHide{
+    display: none;
+  }
+  .Mwheba header .navbar-brand{
+    margin: 0;
+    max-width: 60%;
+    float: right;
+    display: inline-block;
+  }
+  .Mwheba header .navbar-brand img{
+    max-width: 100%;
+    height: auto;
+  }
+  .Mwheba header .navbar-nav{
+    float: left;
+    display: inline-block;
+    padding: 0;
+    width: 40%;
+    text-align: left;
+  }
+  .Mwheba header .navbar-nav li:not(.resHide){
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  .Mwheba .navbar-light .navbar-nav .nav-link.profileMenu{
+    font-size: 24px;
+  }
+  .Mwheba .videoPlayerHolder .path1{
+    top:-30px;
+    right: -5px;
+    width: 50px;
+    height: auto;
+  }
+  .Mwheba .videoPlayerHolder .path2{
+    display: none;
+  }
+  .Mwheba .box:hover{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .Mwheba .mediaLibrary .owl-mediaLibrary .active.current{
+    transform: scale(1.0);
+  }
+  .Mwheba .slideData .btn-black,
+  .Mwheba .slideData .btn-white{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .Mwheba .programsContests .titleAndControllers .controllersHolder.resHide,
+  .Mwheba .mediaLibrary .titleAndControllers .controllersHolder.resHide,
+  .Mwheba .successStories .titleAndControllers .controllersHolder.resHide,
+  .Mwheba .impEvents .titleAndControllers .controllersHolder.resHide,
+  .Mwheba .lastNews .titleAndControllers .controllersHolder.resHide,
+  .Mwheba .programsContests .titleAndControllers .w100.mT20,
+  .Mwheba .mediaLibrary .titleAndControllers .w100.mT20e,
+  .Mwheba .successStories .titleAndControllers .w100.mT20,
+  .Mwheba .impEvents .titleAndControllers .w100.mT20,
+  .Mwheba .lastNews .titleAndControllers .w100.mT20,
+  .Mwheba .library .titleAndControllers .w100.mT20{
+    display: none;
+  }
+  .Mwheba .programsContests .owl-carousel.owl-programsContests .owl-stage-outer,
+  .Mwheba .mediaLibrary .owl-carousel.owl-mediaLibrary .owl-stage-outer,
+  .Mwheba .programsContests .owl-carousel.owl-programsContests .owl-stage-outer{
+    width: calc(100% + 40px);
+  }
+  .Mwheba .impEvents .owl-carousel.owl-impEvents .owl-stage-outer,
+    .Mwheba .lastNews .owl-carousel.owl-lastNews .owl-stage-outer,
+    .Mwheba .successStories .owl-carousel.owl-successStories .owl-stage-outer{
+      width: calc(100% + 25px);
+    }
+    .Mwheba .chatRobotHolder{
+      left: 10px;
+      width: calc(100% - 20px);
+    }
+    .Mwheba .closeChat {
+      top: -30px;
+      right: 0px;
+      height: 50px;
+      -webkit-border-radius: 10px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-radius: 10px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.footerLogo{
+  max-width: 100%;
+  height: auto;
+}
+.Mwheba .owl-carousel .owl-stage{
+  right: -5px !important;
+}
+.Mwheba .successStories .titleAndControllers{
+  background-color: transparent;
+}
+.Mwheba .successStories .titleAndControllers,
+.Mwheba .lastNews .titleAndControllers,
+.Mwheba .impEvents .titleAndControllers{
+  padding: 0 15px;
+}
+.Mwheba .nav.mwhebaTabs{
+  width:100%;
+  padding: 0;
+}
+.Mwheba .talentsHolder.moveUp:hover img{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.Mwheba .libraryHolder.moveUp:hover img{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.libraryHolder, .libraryHolder *{
+  text-align: center;
+}
+.Mwheba #videCont{
+  top: 30%;
+}
+.Mwheba .successStories{
+  background-position: left bottom;
+}
+.Mwheba .megaMenuHolder .megaMenu{
+  right: 0;
+  overflow: auto;
+  box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.2);
+}
+.Mwheba .megaDate{
+  display: none;
+}
+.Mwheba .megaMenuPreview{
+  display: none;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega{
+width: 100%;
+position: relative;
+padding-top: 0;
+margin: 10px 0;
+}
+.Mwheba .titleAndControllers h1,
+.Mwheba .promisingTalents h1{
+  font-size: 30px;
+}
+.Mwheba .titleAndControllers h1~p,
+.Mwheba .promisingTalents h6{
+  display: none;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul{
+  margin: 10px 25px 10px 0;
+  width: calc( 100% - 25px );
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu{
+  padding-left: 15px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuRest{
+  background: #ffffff;
+  position: fixed;
+  top:125px;
+  right: 15px;
+  left: 15px;
+  bottom: 15px;
+  height: auto;
+  overflow: auto;
+  width: calc(100% - 30px);
+  display: none;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+z-index: 99;
+}
+.howAreUMob.arrow{
+  position: relative;
+}
+.howAreUMob.arrow::before{
+  content: '';
+  width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ffffff;
+  position: absolute;
+  top: 26px;
+  left: 15px;
+  z-index: 999;
+}
+.Mwheba .megaMenuHolder .megaMenu .row{
+  margin-left:0;
+  margin-right: 0;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a{
+  position: relative;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a.open .icon-keyboard_arrow_left-24px1{
+  transform: rotate(-90deg);
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega li{
+  padding-right: 15px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a:hover{
+  font-size: 18px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a.open{
+  font-size: 22px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li a *[class*="icon"] {
+  margin-left: 25px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li ul.subMega{
+  margin-top: 0;
+  top: 0;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaMenuMenu ul li:hover ul.subMega{
+  display: none;
+}
+.Mwheba .megaMenuHolder{
+  top: 90px;
+}
+.Mwheba .megaMenuHolder .megaMenu{
+  padding-bottom:20px;
+}
+.Mwheba.opacity:after,
+html.oFH:after{
+  background-color: rgba(0,0,0,0);
+  pointer-events:none;
+}
+.Mwheba header.megaOpened .toggleMega{
+  display: none;
+}
+.Mwheba header.megaOpened .closeMegaMenu{
+  display: inline-block;
+}
+.Mwheba header.megaOpened .profileMenu{
+  display: none;
+}
+.Mwheba .desktopHide{
+  display: block;
+}
+.Mwheba .row.desktopHide{
+  display: flex;
+}
+.Mwheba .megaMenu .desktopHide{
+  padding: 0 15px;
+}
+.Mwheba .megaMenu div[class*="col-"].desktopHide{
+  padding: 0 30px;
+}
+.Mwheba .megaMenuHolder .megaMenu .megaDate,
+.Mwheba .megaMenuHolder .megaMenu .megaShareIcon,
+.Mwheba .megaMenuHolder .megaMenu .megaTopLinks{
+margin-top: 20px;
+}
+.Mwheba .slideData h4.resHide{
+display: none;
+}
+.Mwheba .slideData h1{
+  font-size: 28px;
+}
+.Mwheba a.howAreUMob,
+.Mwheba a.langSwitcher,
+.Mwheba a.searchBtn{
+  color:#333333;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+.Mwheba .howAreUMob:hover,
+.Mwheba .langSwitcher:hover,
+.Mwheba .searchBtn:hover{
+  color:#000000;
+  text-decoration: none;
+}
+.Mwheba a.langSwitcher{
+  margin-left: 15px;
+}
+.Mwheba .col-md-8.megaMenuRest{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.Mwheba .megaMenuRest *[class="col-"]{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.Mwheba .largeBtn{
+  width: 90%;
+  margin-bottom: 20px;
+}
+.Mwheba .programsContests{
+  padding-bottom: 0;
+}
+.Mwheba .impEvents .carouselHolder,
+.Mwheba .lastNews .carouselHolder {
+  padding: 0;
+}
+.Mwheba section{
+  padding: 20px 0 !important;
+}
+.Mwheba .promisingTalents .mBtn.btn-white{
+  height: 54px;
+    font-size: 16px;
+    padding: 10px 40px;
+    line-height: normal;
+    width: 90%;
+    margin-top: 40px;
+}
+.Mwheba footer{
+  background-size: cover;
+}
+.Mwheba .chatRobotBtn{
+  width: 50px;
+  height: 50px;
+}
+.Mwheba .footerLists ul{
+  display: none;
+}
+.Mwheba .videoPlayerHolder *[class*="play"] {
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  line-height: 60px;
+  font-size: 14px;
+}
+.Mwheba .mwhebaTabs .nav-item {
+  margin: 0 0;
+}
+.Mwheba .mwhebaTabs .nav-link {
+  font-size: 16px;
+}
+.Mwheba .mediaLibrary .owl-carousel.owl-mediaLibrary .owl-stage-outer {
+  padding: 0px 10px 0px;
+}
+.Mwheba .appLinks a{
+  width: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.Mwheba .extraFooterLinks ul{
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.Mwheba .extraFooterLinks ul li{
+  width: 33.333333%;
+  display: inline-block;
+  float: right;
+  margin: 0;
+  text-align: center;
+}
+.Mwheba .extraFooterLinks ul li a{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+}
+.Mwheba .copyRights input.typeUrMail {
+  width: 100%;
+  margin-right: 0;
+}
+.Mwheba .copyRights small,
+.Mwheba .copyRights .typeUrMailHolder{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.Mwheba .copyRights small{
+  text-align: right;
+}
+.Mwheba .copyRights .col-md-6.text-left small{
+  margin-bottom: 0;
+  text-align: center;
+}
+.Mwheba footer .footerShareIcon ul{
+  width: 100%;
+}
+.Mwheba footer .footerShareIcon ul li {
+  margin: 0 10px;
+}
+.Mwheba .footerLists ul{
+  margin-bottom: 15px;
+}
+.Mwheba .footerLists h5{
+  position: relative;
+}
+.Mwheba .footerLists h5:after{
+  content: '+';
+  font-size: 14px;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  line-height: 13px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 10px;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+color:#0099FF;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+}
+.Mwheba .footerLists h5.opened:after{
+  content: '-';
+}
+.Mwheba .eventMobBtn[class*="icon-"]{
+  background-color: #b9e3ff;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+color: #000000;
+top: 25px;
+left: 15px;
+font-size: 18px;
+position: absolute;
+}
+.Mwheba .eventMobBtn[class*="icon-"]:hover{
+  text-decoration: none;
+}
+.Mwheba .eventMobBtn span{
+  background-color: #f93939;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 13px;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+color:#ffffff;
+position: absolute;
+top: -3px;
+right: -3px;
+}
+.Mwheba .chatRobotHolder{
+  -webkit-box-shadow: 0px 0px 0px 300px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 0px 300px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 0px 300px rgba(0,0,0,0.1);
+}
+.Mwheba .nav-item .dropdown-menu{
+  position: absolute;
+}
+.Mwheba footer{
+  z-index: 9999;
+}
+.Mwheba .extraFooterLinks .footerShareIcon{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Mwheba .extraFooterLinks .footerShareIcon li{
+  width:16.66666666666667%;
+  width: 16.6666667%;
+  text-align: center;
+  margin: 0;
+}
+}

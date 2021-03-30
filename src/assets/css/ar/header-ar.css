@@ -1,4 +1,17 @@
 /* nav */
+.Mwheba .navbar-brand{
+  margin: 0;
+}
+.Mwheba header .navbar{
+  padding: 0;
+}
+.Mwheba header .navbar-nav li{
+  margin: 0 30px 0 0;
+}
+.Mwheba header{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 .Mwheba .navbar-light .navbar-nav .nav-link{
   margin: 0 5px;
   font-weight: bold;
@@ -38,6 +51,7 @@
 }
 .Mwheba .toggleMega *[class*="icon"]{
   font-size: 28px;
+  vertical-align: text-top;
 }
 .Mwheba .megaMenuHolder{
  position: absolute;

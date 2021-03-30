@@ -1,0 +1,75 @@
+.Mwheba .mediaLibrary{
+  width: 100%;
+  background-color: #F2F6F9;
+  display: inline-block;
+  padding: 40px 0px;
+}
+
+.Mwheba .mediaLibrary .owl-carousel.owl-mediaLibrary .owl-stage-outer{
+  width: calc(100% + 80px);
+  padding: 30px 10px 20px;
+}
+.Mwheba .mediaLibrary .owl-carousel.owl-mediaLibrary .owl-stage{
+  right:-65px;
+}
+.Mwheba .mediaLibrary .titleAndControllers h1{
+  margin-top: 20px;
+}
+.Mwheba .mediaLibrary .titleAndControllers p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Mwheba .mediaLibrary .titleAndControllers .controllersHolder{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Mwheba .mediaLibrary .owl-extra-next, .Mwheba .mediaLibrary .owl-extra-prev{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+margin-left: 10px;
+font-size: 20px;
+color:#000000;
+}
+.Mwheba .mediaLibrary .owl-extra-next:hover, .Mwheba .mediaLibrary .owl-extra-prev:hover{
+  background-color: #ffffff;
+  color:#000000;
+  text-decoration: none;
+}
+.Mwheba .mediaLibrary .owl-extra-next.bDisabled, .Mwheba .mediaLibrary .owl-extra-prev.bDisabled{
+  opacity: 0.5;
+}
+.Mwheba .mediaLibrary .col-auto.box{
+  overflow: hidden;
+}
+.Mwheba .mediaLibrary .owl-mediaLibrary .active{
+  transform: scale(1.0);
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.Mwheba .mediaLibrary .owl-mediaLibrary .active.current{
+  transform: scale(1.1);
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.Mwheba .mediaLibrary .owl-mediaLibrary .active.current .videoPlayerHolder.two .videoTitle{
+  display: block;
+}
+.Mwheba .mediaLibrary .btn-white.btnShadow{
+  margin-top: 22px;
+  float: left;
+}

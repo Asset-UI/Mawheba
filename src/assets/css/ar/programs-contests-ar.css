@@ -1,0 +1,56 @@
+.Mwheba .programsContests{
+  width: 100%;
+  background-color: #F2F6F9;
+  display: inline-block;
+  padding: 40px 0px;
+}
+
+.Mwheba .programsContests .owl-carousel.owl-programsContests .owl-item img {
+  display: block;
+  width: auto;
+  height: 75px;
+}
+
+.Mwheba .programsContests .owl-carousel.owl-programsContests .owl-stage-outer{
+  width: calc(100% + 80px);
+  padding: 20px 10px;
+}
+.Mwheba .programsContests .owl-carousel.owl-programsContests .owl-stage{
+  right:-100px;
+}
+.Mwheba .programsContests .titleAndControllers h1{
+  margin-top: 20px;
+}
+.Mwheba .programsContests .titleAndControllers p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Mwheba .programsContests .titleAndControllers .controllersHolder{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.Mwheba .programsContests .owl-extra-next, .Mwheba .programsContests .owl-extra-prev{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+margin-left: 10px;
+font-size: 20px;
+color:#000000;
+}
+.Mwheba .owl-extra-next:hover, .owl-extra-prev:hover{
+  background-color: #ffffff;
+  color:#000000;
+  text-decoration: none;
+}
+.Mwheba .owl-extra-next.bDisabled, .owl-extra-prev.bDisabled{
+  opacity: 0.5;
+}

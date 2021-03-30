@@ -1,0 +1,168 @@
+.Mwheba footer{
+    background-image:url(../../images/general/footer.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 40px 0 0 0;
+    position: relative;
+}
+
+.Mwheba footer .footerShareIcon{
+    margin-top: 45px;
+}
+
+.Mwheba footer .footerShareIcon ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+     }
+     .Mwheba footer .footerShareIcon ul li{
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin: 0 15px;
+       }
+       .Mwheba footer .footerShareIcon ul li a{
+         font-size:24px;
+         color:#0099FF;
+       }
+       .Mwheba footer .footerShareIcon ul li a:hover{
+        color:#007acb;
+        text-decoration: none;
+       }
+
+       .Mwheba .footerLists{
+margin-top: 40px;
+       }
+       .Mwheba .footerLists ul{
+        padding: 0;
+        margin: 0 0 0 0;
+       }
+       .Mwheba .footerLists ul li{
+ list-style: none;
+ padding: 3px 0;
+    }
+    .Mwheba .footerLists ul li a{
+        color:#333333;
+        font-size: 16px;
+           }
+
+           .Mwheba .extraFooterLinks{
+               width: 100%;
+               background-color: rgba(255,255,255,0.5);
+               border-top: 2px solid #ffffff;
+               padding: 20px 0;
+               display: inline-block;
+               margin-top: 40px;
+           }
+
+           .Mwheba .extraFooterLinks ul{
+               padding: 0;
+               margin: 0;
+           }
+           .Mwheba .extraFooterLinks ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0  0 0 30px;
+        }
+        .Mwheba .extraFooterLinks ul li a{
+            color:#333333;
+            font-size: 16px;
+        }
+
+        .Mwheba .appLinks a{
+            color: #333333;
+            margin-right: 30px;
+            font-size: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 22px;
+        }
+        .Mwheba .appLinks a *[class*="icon-"]{
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .Mwheba .appLinks a *[class*="28"]{
+            font-size: 28px;
+        }
+        .Mwheba .appLinks a *[class*="597"]{
+            font-size: 22px;
+        }
+        .Mwheba .appLinks a:hover{
+            color: #000000;
+            text-decoration: none;
+        }
+
+
+        .Mwheba .copyRights{
+            background-color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .Mwheba .copyRights small{
+            font-size: 13px;
+            font-weight: 500;
+            list-style: 40px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .Mwheba .copyRights input.typeUrMail{
+            border: 1px solid #C5C5C5;
+            height: 40px;
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+outline: none;
+margin-right: 10px;
+padding: 0 10px 0 30px;
+font-size: 13px;
+        }
+
+        .Mwheba .copyRights .typeUrMailHolder{
+            width: 210px;
+            height: 40px;
+            display: inline-block;
+            position: relative;
+        }
+        .Mwheba .copyRights .typeUrMailHolder .mailAction{
+            position: absolute;
+            top: 11px;
+            left:10px;
+            color:#0099FF;
+            font-size: 12px;
+        }
+        .Mwheba .copyRights .typeUrMailHolder .mailAction:hover{
+            text-decoration: none;
+        }
+        .Mwheba .copyRights input.typeUrMail::-webkit-input-placeholder { /* Edge */
+            color: #888888;
+          }
+          .Mwheba .copyRights input.typeUrMail:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #888888;
+          }
+          .Mwheba .copyRights input.typeUrMail::placeholder {
+            color: #888888;
+          }
+          .Mwheba footer .goUp{
+              position: absolute;
+              top:-30px;
+              left: 10px;
+              width: 60px;
+              height: 60px;
+              background-color: rgba(255,255,255,0.5);
+              font-size: 30px;
+              text-align: center;
+              line-height: 60px;
+              -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+color:#0099FF;
+          }
+          .Mwheba footer .goUp:hover{
+              text-decoration: none;
+              color:#007acb;
+          }

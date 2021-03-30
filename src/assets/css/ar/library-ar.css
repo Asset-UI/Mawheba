@@ -1,0 +1,27 @@
+.Mwheba .library{
+  width: 100%;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 40px 0px;
+}
+.Mwheba .library .titleAndControllers p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Mwheba .library .libraryHolder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Mwheba .library .libraryHolder img{
+  height: 75px;
+  width: auto;
+}
+.Mwheba .library .libraryHolder span,
+.Mwheba .library .libraryHolder h2{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.Mwheba .library .libraryHolder span{
+  color:#888888;
+}

@@ -1,0 +1,44 @@
+.Mwheba .promisingTalents{
+  width: 100%;
+  background-color: #0099ff;
+  display: inline-block;
+  padding: 40px 0px;
+  background-image: url(../../images/home/blue-section-bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 75% auto;
+}
+.Mwheba .promisingTalents h4,
+.Mwheba .promisingTalents h1,
+.Mwheba .promisingTalents h6{
+  width:100%;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+}
+.Mwheba .promisingTalents h4{
+  margin-top: 0px;
+}
+.Mwheba .promisingTalents h6{
+  margin-top: 10px;
+}
+.Mwheba .promisingTalents h1{
+  font-size: 40px;
+  margin-top: 0px;
+}
+.Mwheba .promisingTalents .talentsHolder{
+  margin-top: 40px;
+}
+.Mwheba .promisingTalents .talentsHolder img{
+  height: 100px;
+  margin-bottom: 20px;
+}
+.Mwheba .promisingTalents .mBtn.btn-white{
+  margin-top: 60px;
+  padding: 15px 50px;
+  font-size: 20px;
+  height: 60px;
+  width: auto;
+  line-height: 20px;
+}

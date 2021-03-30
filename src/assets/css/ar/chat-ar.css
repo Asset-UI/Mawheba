@@ -1,0 +1,181 @@
+.Mwheba .chatRobotBtn{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    background-image: url(../../images/general/02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 999;
+}
+
+.Mwheba .chatRobotHolder{
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+    background-color: #ffffff;
+    -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+position: fixed;
+left: 30px;
+bottom:30px;
+z-index:9999;
+display: none;
+}
+
+.Mwheba .closeChat{
+    background-color: #ffffff;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    right: -40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    -webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.Mwheba .closeChat:hover{
+    color: #333333;
+    text-decoration: none;
+}
+
+.Mwheba .chatRobotTitle01 h3{
+width: 100%;
+display: inline-block;
+padding-top: 30px;
+text-align: center;
+font-weight: bold;
+}
+
+.Mwheba .chatRobotTitle02 h4{
+    width: 100%;
+    display: inline-block;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    }
+.Mwheba .chatRobotTitle03 h5{
+        width: 100%;
+        display: inline-block;
+        padding-top: 5px;
+        text-align: center;
+        }
+.Mwheba .chatRobotImgHolder img{
+    margin-top: 30px;
+}
+.Mwheba .chatRobotBtnHolder .btn-red{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.Mwheba .chatPageTwo{
+    display: none;
+}
+
+.Mwheba .chatHeader{
+    vertical-align: middle;
+    width: 100%;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px 30px;
+    line-height: 50px;
+    height: 90px;
+}
+.Mwheba .chatHeader img{
+    height: 50px;
+    width: auto;
+    display: inline-block;
+}
+
+.Mwheba .chatPanel{
+height: 350px;
+width: 100%;
+background-color: #F2F1F7;
+padding: 20px 30px;
+}
+
+.Mwheba .chatfooter{
+    padding: 15px 30px;
+}
+
+.Mwheba .chatfooter input[type="text"]{
+    border: none;
+    width: calc(100% - 25px);
+    display: inline-block;
+    outline: none;
+}
+.Mwheba .chatfooter a{
+    color:#0099FF;
+    width: 20px;
+    display: inline-block;
+    text-align: left;
+}
+.Mwheba .chatfooter a:hover{
+    text-decoration: none;
+}
+
+.Mwheba .userChat{
+    background-color: #1A4AB9;
+    color: #ffffff;
+    width: 90%;
+    margin-right: 10%;
+    font-size: 13px;
+    display: inline-table;
+    -webkit-border-radius: 10px;
+-webkit-border-top-left-radius: 0;
+-moz-border-radius: 10px;
+-moz-border-radius-topleft: 0;
+border-radius: 10px;
+border-top-left-radius: 0;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+
+.Mwheba .roboChat{
+    width: 90%;
+    margin-left: 10%;
+    -webkit-border-radius: 10px;
+-webkit-border-top-right-radius: 0;
+-moz-border-radius: 10px;
+-moz-border-radius-topright: 0;
+border-radius: 10px;
+border-top-right-radius: 0;
+display: inline-table;
+padding: 10px;
+font-size: 13px;
+margin-bottom: 20px;
+}
+
+.Mwheba .roboChat.t01{
+    background-color: #ffffff;
+    color:#000000;
+}
+
+.Mwheba .roboChat.t02{
+    border: 1px solid #0099FF;
+    color:#0099FF;
+}
+
+.Mwheba .roboBreak{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.Mwheba .roboBreak img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}

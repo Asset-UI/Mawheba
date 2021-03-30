@@ -1,0 +1,168 @@
+.Mwheba .lastNews{
+  width: 100%;
+  background-color: #FBFCFD;
+  display: inline-block;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  box-sizing: 100% auto;
+}
+
+.Mwheba .lastNews .owl-carousel.owl-lastNews .owl-item img {
+  display: block;
+}
+
+.Mwheba .lastNews .owl-carousel.owl-lastNews .owl-stage-outer{
+  width: calc(100% + 65px);
+  float: right;
+  padding: 20px 10px;
+}
+.Mwheba .lastNews .owl-carousel.owl-lastNews .owl-stage{
+  right:-65px;
+}
+.Mwheba .lastNews .titleAndControllers{
+  padding: 40px 0 0 20px;
+}
+.Mwheba .lastNews .titleAndControllers h1{
+  margin-top: 20px;
+  float: right;
+  margin-left: 45px;
+}
+.Mwheba .lastNews .titleAndControllers p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Mwheba .lastNews .titleAndControllers .controllersHolder{
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+}
+.Mwheba .lastNews .owl-extra-next, .Mwheba .lastNews .owl-extra-prev{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+margin-left: 10px;
+font-size: 20px;
+background-color: #ffffff;
+color:#000000;
+}
+.Mwheba .lastNews .owl-extra-next:hover, .Mwheba .lastNews .owl-extra-prev:hover{
+  background-color: #f1f1f1;
+  color:#000000;
+  text-decoration: none;
+}
+.Mwheba .lastNews .owl-extra-next.bDisabled, .Mwheba .lastNews .owl-extra-prev.bDisabled{
+  opacity: 0.5;
+}
+.Mwheba .lastNews .carouselHolder{
+  padding: 40px 0;
+}
+
+.videoPlayerHolder.two.lastNews *[class*="play"]{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+  line-height: 60px;
+  font-size: 12px;
+}
+.Mwheba .lastNews .box.white{
+  overflow: hidden;
+}
+.Mwheba .lastNews .dataHolder{
+  padding: 20px;
+  width: 100%;
+  display: inline-block;
+}
+.Mwheba .lastNews .imgHolder{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+overflow: hidden;
+float: right;
+}
+.Mwheba .lastNews .imgHolder img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Mwheba .lastNews .nameHolder{
+  width: calc(100% - 50px);
+  display: inline-block;
+  float: right;
+  font-size: 24px;
+  line-height: 50px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+.Mwheba .lastNews .holder001, .Mwheba .lastNews .holder002{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.Mwheba .lastNews .holder0001{
+  font-size: 20px;
+  color:#000000;
+  font-weight: bold;
+}
+.Mwheba .lastNews .holder001{
+  font-size: 17px;
+  color:#000000;
+  font-weight: bold;
+}
+.Mwheba .lastNews .holder002{
+  font-size: 14px;
+  color:#888888;
+}
+.Mwheba .lastNews .datepicker-inline{
+  width: 100%;
+  text-align: center;
+}
+.Mwheba .lastNews .datepicker-inline *{
+  text-align: center;
+}
+.Mwheba .lastNews .datepicker-inline table{
+  width: 100%;
+}
+.Mwheba .lastNews .datepicker-days table thead tr th,
+.Mwheba .lastNews .datepicker-years table thead tr th,
+.Mwheba .lastNews .datepicker-months table thead tr th{
+  background-color: transparent;
+  color: #000000;
+}
+.Mwheba .lastNews .datepicker-days table thead tr th.datepicker-switch{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.Mwheba .lastNews .datepicker-days table thead tr:first-child{
+height: 60px;
+}
+.Mwheba .lastNews .datepicker-days table thead tr:first-child th{
+  vertical-align: top;
+}
+.Mwheba .lastNews .datepicker-days table thead tr th.next,
+.Mwheba .lastNews .datepicker-days table thead tr th.prev{
+  padding-top: 18px !important;
+}
+.Mwheba .lastNews .datePickerHolder{
+  padding: 20px;
+}
+
+.Mwheba .lastNews .day.events div{
+  background-color: #000000;
+  color:#ffffff;
+}
+.Mwheba .lastNews .btn-white.btnShadow{
+  margin-top: 62px;
+  float: left;
+}

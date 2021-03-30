@@ -2,6 +2,17 @@
 @import "../../frameworks/bootstrap/css/bootstrap.min.css";
 @import "main-ar.css";
 @import "header-ar.css";
+@import "home-banner-ar.css";
+@import "programs-contests-ar.css";
+@import "promising-talents-ar.css";
+@import "library-ar.css";
+@import "media-library-ar.css";
+@import "success-stories-ar.css";
+@import "imp-events-ar.css";
+@import "last-news-ar.css";
+@import "footer-ar.css";
+@import "chat-ar.css";
+@import "responsive-ar.css";
 
 /* icons */
 @import "../../icons/style.css";

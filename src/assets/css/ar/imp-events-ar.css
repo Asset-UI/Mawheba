@@ -1,0 +1,166 @@
+.Mwheba .impEvents{
+  width: 100%;
+  background-color: #FBFCFD;
+  display: inline-block;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  box-sizing: 100% auto;
+}
+
+.Mwheba .impEvents .owl-carousel.owl-impEvents .owl-item img {
+  display: block;
+}
+
+.Mwheba .impEvents .owl-carousel.owl-impEvents .owl-stage-outer{
+  width: calc(100% + 65px);
+  float: right;
+  padding: 20px 10px;
+}
+.Mwheba .impEvents .owl-carousel.owl-impEvents .owl-stage{
+  right:-65px;
+}
+.Mwheba .impEvents .titleAndControllers{
+  padding: 40px 0 0 20px;
+}
+.Mwheba .impEvents .titleAndControllers h1{
+  margin-top: 20px;
+}
+.Mwheba .impEvents .titleAndControllers p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Mwheba .impEvents .titleAndControllers .controllersHolder{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.Mwheba .impEvents .owl-extra-next, .Mwheba .impEvents .owl-extra-prev{
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+margin-left: 10px;
+font-size: 20px;
+background-color: #ffffff;
+color:#000000;
+}
+.Mwheba .impEvents .owl-extra-next:hover, .Mwheba .impEvents .owl-extra-prev:hover{
+  background-color: #f1f1f1;
+  color:#000000;
+  text-decoration: none;
+}
+.Mwheba .impEvents .owl-extra-next.bDisabled, .Mwheba .impEvents .owl-extra-prev.bDisabled{
+  opacity: 0.5;
+}
+.Mwheba .impEvents .carouselHolder{
+  padding: 40px 0;
+}
+
+.videoPlayerHolder.two.impEvents *[class*="play"]{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+  line-height: 60px;
+  font-size: 12px;
+}
+.Mwheba .impEvents .box.white{
+  overflow: hidden;
+}
+.Mwheba .impEvents .dataHolder{
+  padding: 20px;
+  width: 100%;
+  display: inline-block;
+}
+.Mwheba .impEvents .imgHolder{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+overflow: hidden;
+float: right;
+}
+.Mwheba .impEvents .imgHolder img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Mwheba .impEvents .nameHolder{
+  width: calc(100% - 50px);
+  display: inline-block;
+  float: right;
+  font-size: 24px;
+  line-height: 50px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+.Mwheba .impEvents .holder001, .Mwheba .impEvents .holder002{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.Mwheba .impEvents .holder0001{
+  font-size: 20px;
+  color:#000000;
+  font-weight: bold;
+}
+.Mwheba .impEvents .holder001{
+  font-size: 17px;
+  color:#000000;
+  font-weight: bold;
+}
+.Mwheba .impEvents .holder002{
+  font-size: 14px;
+  color:#888888;
+}
+.Mwheba .impEvents .datepicker-inline{
+  width: 100%;
+  text-align: center;
+}
+.Mwheba .impEvents .datepicker-inline *{
+  text-align: center;
+}
+.Mwheba .impEvents .datepicker-inline table{
+  width: 100%;
+}
+.Mwheba .impEvents .datepicker-days table thead tr th,
+.Mwheba .impEvents .datepicker-years table thead tr th,
+.Mwheba .impEvents .datepicker-months table thead tr th{
+  background-color: transparent;
+  color: #000000;
+}
+.Mwheba .impEvents .datepicker-days table thead tr th.datepicker-switch{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.Mwheba .impEvents .datepicker-days table thead tr:first-child{
+height: 60px;
+}
+.Mwheba .impEvents .datepicker-days table thead tr:first-child th{
+  vertical-align: top;
+}
+.Mwheba .impEvents .datepicker-days table thead tr th.next,
+.Mwheba .impEvents .datepicker-days table thead tr th.prev{
+  padding-top: 18px !important;
+}
+.Mwheba .impEvents .datePickerHolder{
+  padding: 20px;
+}
+
+.Mwheba .impEvents .day.events div{
+  background-color: #000000;
+  color:#ffffff;
+}
+.Mwheba .impEvents .btn-white.btnShadow{
+  margin-top: 62px;
+  float: left;
+}
